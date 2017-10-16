@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud1"
+    android:id="@+id/fragment_search"
+    tools:context="com.example.onsto.musicbeta.Fragment.SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Songs"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewSearch_Songs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Albums"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewSearch_Albums"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artist"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewSearch_Artist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

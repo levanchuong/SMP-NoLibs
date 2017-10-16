@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.onsto.musicbeta.Fragment.PlaylistPlayingFragment"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <View
+            android:id="@+id/indicator1"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:background="@drawable/bg_indicator_inactive" />
+
+        <View
+            android:layout_marginLeft="7dp"
+            android:id="@+id/indicator2"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:background="@drawable/bg_indicator_inactive" />
+
+        <View
+            android:layout_marginLeft="14dp"
+            android:id="@+id/indicator3"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:background="@drawable/bg_indicator_active" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewLyrics"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

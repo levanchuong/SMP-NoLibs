@@ -1,0 +1,155 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.onsto.musicbeta.Fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:id="@+id/scrollViewHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutSongLibrary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/imageViewSongList"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@mipmap/ic_songs"
+                    android:background="@android:color/transparent"
+                    />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.71"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Thư viện bài hát"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewCountSong"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="0.18"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:textColor="@android:color/background_light"-->
+                    <!--android:textSize="16sp" />-->
+
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0.01dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:background="?attr/colorControlHighlight"></LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/linearLayoutAlbum"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:padding="5dp">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/imageView1"-->
+                    <!--android:layout_width="70dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--app:srcCompat="@mipmap/ic_album1" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView10"-->
+                    <!--android:layout_width="130dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_weight="0.71"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:text="Album"-->
+                    <!--android:textColor="@android:color/background_light"-->
+                    <!--android:textSize="18sp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewCountAlbum"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="0.18"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:textColor="@android:color/background_light"-->
+                    <!--android:textSize="16sp" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0.01dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:background="?attr/colorControlHighlight"></LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/linearLayoutArtist"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:padding="5dp">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/imageView2"-->
+                    <!--android:layout_width="70dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--app:srcCompat="@mipmap/ic_artist" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView8"-->
+                    <!--android:layout_width="130dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_weight="0.71"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:text="Nghệ sỹ"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:textSize="18sp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textViewCountArtist"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="0.18"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:textColor="@android:color/background_light"-->
+                    <!--android:textSize="16sp" />-->
+
+            <!--</LinearLayout>-->
+        </LinearLayout>
+
+
+    </ScrollView>
+</FrameLayout>

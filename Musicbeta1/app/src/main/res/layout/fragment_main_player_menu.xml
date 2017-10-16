@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    tools:context="com.example.onsto.musicbeta.Fragment.MainPlayerMenuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="474dp"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <View
+                android:id="@+id/indicator1"
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:background="@drawable/bg_indicator_active" />
+
+            <View
+                android:id="@+id/indicator2"
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/bg_indicator_inactive" />
+
+            <View
+                android:id="@+id/indicator3"
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/bg_indicator_inactive" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageViewLoadSong"
+            android:layout_width="225dp"
+            android:layout_height="225dp"
+            android:layout_below="@+id/top"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="0.28" />
+
+
+    </RelativeLayout>
+</FrameLayout>
